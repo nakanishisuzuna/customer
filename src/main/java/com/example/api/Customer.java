@@ -18,54 +18,44 @@ public class Customer {
 	@NotNull
 	private String postCode;
 
-	public void setId(String string) {
-		// TODO 自動生成されたメソッド・スタブ
-
+	public String getId() {
+		return id;
 	}
 
-	public void setUsername(String string) {
-		// TODO 自動生成されたメソッド・スタブ
-
+	public void setId(String id) {
+		this.id = id;
 	}
 
-	public void setEmail(String string) {
-		// TODO 自動生成されたメソッド・スタブ
-
+	public String getUsername() {
+		return username;
 	}
 
-	public void setPhoneNumber(String string) {
-		// TODO 自動生成されたメソッド・スタブ
-
-	}
-
-	public void setPostCode(String string) {
-		// TODO 自動生成されたメソッド・スタブ
-
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public String getEmail() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+		return email;
 	}
 
-	public Short getId() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
-	public Short getUsername() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+	public String getPhoneNumber() {
+		return phoneNumber;
 	}
 
-	public Short getPhoneNumber() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
 	}
 
-	public Short getPostCode() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+	public String getPostCode() {
+		return postCode;
+	}
+
+	public void setPostCode(String postCode) {
+		this.postCode = postCode;
 	}
 
 	// Setter/Getterは省略

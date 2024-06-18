@@ -19,9 +19,9 @@ public interface CustomerMapper {
 
 	Customer select(String id);
 
-	void update(Customer customer);
+	Customer update(Customer customer);
 
-	void delete(String id);
+	int delete(String customerId);
 }
 
 //この insert メソッドですが，インタフェースなのでメソッドの実装はしていません．かつ，このMapperを明示的にimplementsしたクラスも作成しません．。insert の処理を実装は、XMLファイルに実行させたいSQL文を書くことによって，MyBatisがよしなに処理を実行してくれます
