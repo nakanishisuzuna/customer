@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 3131
   servlet:
     context-path: /api
   
@@ -10,8 +10,8 @@ spring:
   datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/app_db
-    username: appuser
-    password: appuser
+    username: postgres
+    password: ""
     # MyBatis
 mybatis:
   configuration:
